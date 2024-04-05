@@ -19,3 +19,21 @@ if (textLength < sourceText.length || showCursor) {
 } else {
   sourceText.substring(0, textLength);
 }
+
+// Вариант кода, чтобы курсор пропадал после того, как текст напечатан
+
+var cursor = "|"; // Символ курсора
+var fps = 10; // Скорость "печатания", символов в секунду
+var currentTime = time - thisLayer.inPoint;
+var sourceText = thisLayer.text.sourceText.value;
+var textLength = Math.min(Math.floor(currentTime * fps), sourceText.length);
+var blinkingSpeed = 0.5; // Скорость мигания курсора в секундах
+
+// Определяем, когда курсор должен мигать
+var showCursor = currentTime % (blinkingSpeed * 2) < blinkingSpeed && textLength < sourceText.length;
+
+if (showCursor) {
+  sourceText.substring(0, textLength) + cursor;
+} else {
+  sourceText.substring(0, textLength);
+}
