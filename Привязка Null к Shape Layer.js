@@ -1,7 +1,9 @@
 // Привязка null object к Shape layer для дальнейшей
 // привязки каких-либо элементов к плашке, вставлять в параметр Position
 
-- Верхний левый угол 
+//-------------------------------------------------------------------------
+// Верхний левый угол 
+//-------------------------------------------------------------------------
 
 var shapeLayer = thisComp.layer("Имя вашего Shape Layer"); // Замените на имя вашего Shape Layer
 var shapeBounds = shapeLayer.sourceRectAtTime(time, false); // Получаем размеры и положение содержимого Shape Layer
@@ -9,7 +11,9 @@ var topLeft = shapeLayer.toComp([shapeBounds.left, shapeBounds.top]); // Кон�
 
 [topLeft[0], topLeft[1]]
 
-- Верхний правый угол
+//-------------------------------------------------------------------------
+// Верхний правый угол
+//-------------------------------------------------------------------------
 
 var shapeLayer = thisComp.layer("Имя вашего Shape Layer"); // Замените на имя вашего Shape Layer
 var shapeBounds = shapeLayer.sourceRectAtTime(time, false); // Получаем размеры и положение содержимого Shape Layer
@@ -17,7 +21,9 @@ var topRight = shapeLayer.toComp([shapeBounds.left + shapeBounds.width, shapeBou
 
 [topRight[0], topRight[1]]
 
-- Левый нижний
+//-------------------------------------------------------------------------
+// Левый нижний
+//-------------------------------------------------------------------------
 
 var shapeLayer = thisComp.layer("Имя вашего Shape Layer"); // Замените на имя вашего Shape Layer
 var shapeBounds = shapeLayer.sourceRectAtTime(time, false); // Получаем размеры и положение содержимого Shape Layer
@@ -25,7 +31,9 @@ var bottomLeft = shapeLayer.toComp([shapeBounds.left, shapeBounds.top + shapeBou
 
 [bottomLeft[0], bottomLeft[1]]
 
-- Правый нижний
+//-------------------------------------------------------------------------
+// Правый нижний
+//-------------------------------------------------------------------------
 
 var shapeLayer = thisComp.layer("Имя вашего Shape Layer"); // Замените на имя вашего Shape Layer
 var shapeBounds = shapeLayer.sourceRectAtTime(time, false); // Получаем размеры и положение содержимого Shape Layer
@@ -33,7 +41,9 @@ var bottomRight = shapeLayer.toComp([shapeBounds.left + shapeBounds.width, shape
 
 [bottomRight[0], bottomRight[1]]
 
-- Левая сторона
+//-------------------------------------------------------------------------
+// Левая сторона
+//-------------------------------------------------------------------------
 
 var shapeLayer = thisComp.layer("Имя вашего Shape Layer"); // Замените на имя вашего Shape Layer
 var shapeBounds = shapeLayer.sourceRectAtTime(time, false); // Получаем размеры и положение содержимого Shape Layer
@@ -41,7 +51,9 @@ var middleLeft = shapeLayer.toComp([shapeBounds.left, shapeBounds.top + shapeBou
 
 [middleLeft[0], middleLeft[1]]
 
-- Правая сторона
+//-------------------------------------------------------------------------
+// Правая сторона
+//-------------------------------------------------------------------------
 
 var shapeLayer = thisComp.layer("Имя вашего Shape Layer"); // Замените на имя вашего Shape Layer
 var shapeBounds = shapeLayer.sourceRectAtTime(time, false); // Получаем размеры и положение содержимого Shape Layer
@@ -49,7 +61,9 @@ var middleRight = shapeLayer.toComp([shapeBounds.left + shapeBounds.width, shape
 
 [middleRight[0], middleRight[1]]
 
-- Верхняя сторона
+//-------------------------------------------------------------------------
+// Верхняя сторона
+//-------------------------------------------------------------------------
 
 var shapeLayer = thisComp.layer("Имя вашего Shape Layer"); // Замените на имя вашего Shape Layer
 var shapeBounds = shapeLayer.sourceRectAtTime(time, false); // Получаем размеры и положение содержимого Shape Layer
@@ -57,7 +71,9 @@ var middleTop = shapeLayer.toComp([shapeBounds.left + shapeBounds.width / 2, sha
 
 [middleTop[0], middleTop[1]]
 
-- Нижняя сторона
+//-------------------------------------------------------------------------
+// Нижняя сторона
+//-------------------------------------------------------------------------
 
 var shapeLayer = thisComp.layer("Имя вашего Shape Layer"); // Замените на имя вашего Shape Layer
 var shapeBounds = shapeLayer.sourceRectAtTime(time, false); // Получаем размеры и положение содержимого Shape Layer
