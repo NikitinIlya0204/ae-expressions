@@ -21,4 +21,4 @@ var deltaX = textSize.width / 2;
 var deltaY = textSize.height / 2;
 
 // Корректируем позицию так, чтобы текст расширялся вверх и вправо
-[originalPosition[0] + deltaX, originalPosition[1] - deltaY];
+[Value [0], originalPosition[1] - deltaY];
