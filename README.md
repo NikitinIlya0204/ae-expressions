@@ -16,6 +16,11 @@
 <img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/4be68742-a288-41ab-b199-7036ccb0cfd5" width="250" />
 </p>
 
+## Катающиеся фигуры
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/bb385c2a-92b9-44ad-a5ac-dee56f5a136f" width="250" />
+</p>
+
 
  :hammer_and_wrench: Languages and Tools :
  <div>
