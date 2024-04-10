@@ -1,5 +1,6 @@
 // Автоцентровка текста по центру 
-// вставляется в Anchor point текстового слоя
+// Вставляется в Anchor point текстового слоя
+//-----------------------------------------------------
 s = thisLayer.sourceRectAtTime(time,true);
 width = s.width;
 height = s.height;
