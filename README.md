@@ -9,6 +9,12 @@
 <img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/25dfc3c1-410d-4304-ad5a-7d76318cb33d" width="500" />
 </p>
 
+## Автоцентровка текста
+Первый - держит текст в цетре, текст расширяется вниз и вверх при добавлении строк.
+Второй - Текст расширяется только вверх, не пересекая нижнюю границу.
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/25dfc3c1-410d-4304-ad5a-7d76318cb33d" width="500" />
+</p>
 
 
  :hammer_and_wrench: Languages and Tools :
