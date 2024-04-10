@@ -13,7 +13,7 @@
 Первый - держит текст в цетре, текст расширяется вниз и вверх при добавлении строк.
 Второй - Текст расширяется только вверх, не пересекая нижнюю границу.
 <p align="center">
-<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/25dfc3c1-410d-4304-ad5a-7d76318cb33d" width="500" />
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/57039739-5edc-4706-bb45-9b759c4c8cfa" width="500" />
 </p>
 
 
