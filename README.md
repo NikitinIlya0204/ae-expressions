@@ -21,6 +21,35 @@
 <img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/bb385c2a-92b9-44ad-a5ac-dee56f5a136f" width="250" />
 </p>
 
+## Корректировка позиции плашки
+Используется, когда нужен авторазмер плашки с прижатием по левому краю
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/3c252ddc-904e-4bb3-9a56-e5b64e380264" width="250" />
+</p>
+
+## Печать текста с курсором
+Используйте любой из 3х скриптов, в зависимости от задачи
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/e2febe58-9094-4d98-9c22-ba695621aa34" width="250" />
+</p>
+
+## Постоянный Stroke
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/d64b9891-95e7-423f-af8e-88f06a5e5a24" width="250" />
+</p>
+
+## Постоянный Масштаб
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/61126e75-764c-4783-8b03-5326c1c2b560" width="250" />
+</p>
+
+## Привязка Null к Shape Layer
+Используется, чтобы привязать какие-либо элементы/иконки к плашке
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/6006dfce-026e-42ee-bcdc-5c892b30e25c" width="250" />
+</p>
+
+
 
  :hammer_and_wrench: Languages and Tools :
  <div>
