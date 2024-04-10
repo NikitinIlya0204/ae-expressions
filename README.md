@@ -49,7 +49,20 @@
 <img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/6006dfce-026e-42ee-bcdc-5c892b30e25c" width="250" />
 </p>
 
+## Ступенчатые повороты
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/686ee347-3a5a-4b22-bd6c-e69f0be259e2" width="250" />
+</p>
 
+## Счетчики
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/b9ef630a-32d7-4705-8586-c54718528e36" width="500" />
+</p>
+
+## Checkbox Control Слоя
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/9dbf5b88-45f1-49dd-b89b-b63f2b8742a2" width="500" />
+</p>
 
  :hammer_and_wrench: Languages and Tools :
  <div>
