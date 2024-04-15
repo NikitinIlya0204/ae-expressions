@@ -64,6 +64,11 @@
 <img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/9dbf5b88-45f1-49dd-b89b-b63f2b8742a2" width="500" />
 </p>
 
+## Текст с выделением слов
+<p align="center">
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/8a170fbf-2098-4471-897d-60651fec7b6d" width="500" />
+</p>
+
  :hammer_and_wrench: Languages and Tools :
  <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
