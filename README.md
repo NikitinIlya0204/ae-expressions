@@ -66,7 +66,7 @@
 
 ## Текст с выделением слов
 <p align="center">
-<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/8a170fbf-2098-4471-897d-60651fec7b6d" width="500" />
+<img src="https://github.com/NikitinIlya0204/ae-expressions/assets/165285759/8a170fbf-2098-4471-897d-60651fec7b6d" width="250" />
 </p>
 
  :hammer_and_wrench: Languages and Tools :
