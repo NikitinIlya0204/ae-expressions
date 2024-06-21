@@ -20,7 +20,7 @@ var textSize = thisLayer.sourceRectAtTime(time, false);
 
 // Рассчитываем изменение размера относительно начальной точки (левый верхний угол)
 var deltaX = textSize.width / 2;
-var deltaY = textSize.height / 2; // если недостаточно сильно поднимается вверх "2" меняем на "1"
+var deltaY = textSize.height / 1; // если недостаточно сильно поднимается вверх "2" меняем на "1"
 
 // Корректируем позицию так, чтобы текст расширялся вверх и вправо
 [value[0], originalPosition[1] - deltaY];
