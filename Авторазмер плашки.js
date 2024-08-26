@@ -45,3 +45,39 @@ var scaleY = (textHeight / myHeight) * 100 + effect("Slider Control 2")("Slider"
 
 // Apply non-uniform scaling
 [scaleX, scaleY]
+
+
+//---------------------------------------------------------------------------
+//Авторазмер с возможностью анимировать Size
+//---------------------------------------------------------------------------
+// Получаем ссылку на текстовый слой
+title = thisComp.layer("TEXT 1");
+
+// Вычисляем ширину и высоту текстового слоя
+w = title.sourceRectAtTime().width;
+h = title.sourceRectAtTime().height;
+
+// Устанавливаем авторазмеры
+autoWidth = w + 1000;
+autoHeight = h + 100;
+
+// Получаем текущее значение ширины из ключевых кадров
+keyValue = value;
+
+// Если нет ключевых кадров, используем авторазмеры
+initialWidth = keyValue[0];
+
+
+
+// Определяем начальное и конечное время анимации (можно настроить)
+startTime = key(1).time; // время первого ключевого кадра
+endTime = key(numKeys).time; // время последнего ключевого кадра
+
+// Применяем значения авторазмера к ключевым кадрам для ширины
+animatedWidth = linear(time, startTime, endTime, initialWidth, autoWidth);
+
+// Высота всегда равна авторазмеру
+resultHeight = autoHeight;
+
+// Возвращаем анимированные значения
+[animatedWidth, resultHeight];
