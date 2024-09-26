@@ -14,7 +14,7 @@ h = title.sourceRectAtTime().height;// Вычисляем высоту текс�
 x = thisComp.layer("TEXT 1").sourceRectAtTime();
 w = thisComp.layer("TEXT 2").sourceRectAtTime();
 if(x.width > w.width)
-{t = x.width+65}
+{t = x.width}
 else
 {t = w.width}
 h = w.height + x.height; 
