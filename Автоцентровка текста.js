@@ -14,8 +14,7 @@ height = s.height;
 
 // В Achor point Вставляем: 
 var rect = sourceRectAtTime(time, false);
-var rightBottom = [rect.left + rect.width, rect.top + rect.height];
-rightBottom;
+[rect.left, rect.top]
 
 // Вставлять в position
 
