@@ -16,8 +16,8 @@ height = s.height;
 var rect = sourceRectAtTime(time, false);
 [rect.left, rect.top]
 
-// Вставлять в position
 
+// Вставлять в position
 var originalPosition = [960, 540]; // Исходная позиция вашего текстового слоя
 
 // Получаем текущий размер текста
