@@ -35,8 +35,7 @@ height = s.height;
 
 // В Achor point Вставляем: 
 var rect = sourceRectAtTime(time, false);
-[rect.left, rect.top]
-
+[rect.left, rect.top + rect.height]
 
 // Вставлять в position
 var originalPosition = [960, 540]; // Исходная позиция вашего текстового слоя
