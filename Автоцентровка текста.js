@@ -34,22 +34,14 @@ height = s.height;
 // -----------------------------------------------------
 
 // В Achor point Вставляем: 
-var rect = sourceRectAtTime(time, false);
-[rect.left, rect.top + rect.height]
+var r = thisLayer.sourceRectAtTime();
+[r.left, r.top + r.height]
 
 // Вставлять в position
-var originalPosition = [960, 540]; // Исходная позиция вашего текстового слоя
-
-// Получаем текущий размер текста
-var textSize = thisLayer.sourceRectAtTime(time, false);
-
-// Рассчитываем изменение размера относительно начальной точки (левый верхний угол)
-var deltaX = textSize.width / 2;
-var deltaY = textSize.height / 1; // если недостаточно сильно поднимается вверх "2" меняем на "1"
-
-// Корректируем позицию так, чтобы текст расширялся вверх и вправо
-[value[0], originalPosition[1] - deltaY];
-
+var r = thisLayer.sourceRectAtTime();
+var x = value[0];
+var y = value[1];
+[x, y]
 
 // -----------------------------------------------------
 // Текст будет расширяться только влево и вниз
